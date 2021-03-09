@@ -1,12 +1,143 @@
 @import url("reset.css");
 
 body{
-	font-family: Arial,微軟正黑體;
-	font-size: 16px;
-	/*background-color: #f2f2f2;*/
+	font-family: 微軟正黑體,Arial;
+	font-size: 12px;
+	width: 100%;
+}
+/*--- 網頁的標頭 ---*/
+header{
+	background-color: #219EBC;
+	width: 100%;
+	max-width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	/*flex-basis: 200px;*/
+	/*width: 20%;*/
+	/*border: 1px solid red;*/
 }
 
+header img{
+	width: 100px;
+	height: 50px;
+	padding: 10px 0;
+}
+
+/*--- 網頁的選單、導覽開始 ---*/
+nav{
+	background-color: #219EBC;
+	width: 100%;
+	max-width: 1200px;
+	/*height: 70px;*/
+	margin: 0 auto;
+	/*display: flex;*/
+}
+
+nav a{
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	flex-basis: 20%;
+	height: 50px;
+	line-height: 50px;
+	letter-spacing: 1.5px;
+}
+
+nav a:hover{
+	color: #FFB703;
+	font-weight: bold;
+}
+
+nav .menu{
+	flex-basis: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: stretch;
+	/*border: 3px solid red;*/
+}
+
+nav li{
+	flex-basis: 100%;	
+  border: 1px solid red;
+}
+
+/*@media only screen and (max-width: 1024px) { 
+	nav li{
+		width: 20%;
+	}
+}*/
+
+/*------ 網頁的主要內容輪播圖開始 ------*/
+
+main{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+main img{
+	display: block;
+	max-width: 100%;
+}  
+/*--- 五個產品圖區塊 ---*/
+
+section{
+	background-color: #219EBC;
+	width: 100%;
+	max-width: 1200px;
+	/*height: 70px;*/
+	margin: 0 auto;
+}
+
+section ul{
+	display: flex;
+	flex-wrap: wrap;
+/*	flex-basis: 100%;*/
+	justify-content: space-around;
+
+	/*align-items: center;*/
+
+	outline: 1px solid red;
+}
+
+section li{
+	flex-grow: 1;
+	width: 250px;
+	max-width: 200px;
+	background-color: #eeeeee;
+	outline: 1px solid black;
+}
+
+li img{}
+
+li h3{}
+
+.item{}
+
+.cal{}
+
+.Numerical{}
+
+
+/*li .cal::before{
+  content:"熱量(大卡)";
+  color:red;
+}
+
+li .cal::after{
+  content:"183";
+  color:red;
+}*/
+
+/*------ 以上重新撰寫程式碼CSS ------*/
+
 .wrapper{
+	/*margin-top: 50px;*/
 	width: 100%;
 	height: 181px;
 	margin: 0 auto;
