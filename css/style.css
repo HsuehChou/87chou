@@ -48,6 +48,7 @@ nav a{
 	letter-spacing: 1.5px;
 }
 
+
 nav a:hover{
 	color: #FFB703;
 	font-weight: bold;
@@ -66,12 +67,6 @@ nav li{
 	flex-basis: 100%;	
   /*border: 1px solid red;*/
 }
-
-/*@media only screen and (max-width: 1024px) { 
-	nav li{
-		width: 20%;
-	}
-}*/
 
 /*------ 網頁的主要內容輪播圖開始 ------*/
 
@@ -377,7 +372,7 @@ footer .img{
 	flex-basis: 30%;
 	text-align: center;	
 	margin: 10px 0;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 @media screen and (max-width: 500px) {
@@ -396,7 +391,7 @@ footer .img{
 	margin: 10px auto;
 	/*flex-wrap: wrap;*/
 	align-items: center;
-	border: 2px solid green;
+	/*border: 2px solid green;*/
 }
 
 @media screen and (max-width: 500px) {
@@ -436,7 +431,7 @@ footer .social{
 	width: 100%;
 	text-align: center;
 	margin: 10px 0;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 }
 
 .social h3{
@@ -463,5 +458,5 @@ footer p{
 	text-align: center;
 	margin: 20px 0;
 	margin-top: 40px;
-	border: 1px solid red;
+	border: 1px solid re/*d*/;
 }
